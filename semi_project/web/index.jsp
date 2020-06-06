@@ -5,13 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
 </head>
 <body>
-	<h1>나 잘 나오나?</h1>
-	<h2>어 너 잘 나와~</h2>
-	<h2>나는 어때?</h2>
-	<h2>어 잘나와</h2>
-	<h2>진짜?</h2>
-	<h2>동원등장</h2>
+	<%@ include file="views/common/menubar.jsp" %>
+	
 </body>
 </html>

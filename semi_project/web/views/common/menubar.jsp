@@ -6,8 +6,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
- <link href="../../css/styles.css" rel="stylesheet" />
-  <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
+ <link href="<%=request.getContextPath()%>/css/styles.css" rel="stylesheet" />
+ <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
     crossorigin="anonymous" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
     crossorigin="anonymous"></script>
@@ -90,7 +90,7 @@
 <body class="sb-nav-fixed sb-sidenav-toggled">
   <nav class="sb-topnav navbar navbar-expand navbar-dark bg-light">
     <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
-    <img src="../../image/logo.png" usemap="#map1" style="width: 180px; height: 40px; margin-left: 23px; ">
+    <img src="<%=request.getContextPath()%>/image/logo.png" usemap="#map1" style="width: 180px; height: 40px; margin-left: 23px; ">
     <map name="map1">
       <area shape="rect" coords="00,00,180px,40px" href="home.html" target="_self" style="outline:none;">
     </map>
@@ -158,48 +158,48 @@
 
               Category</div>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/man.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/man.png" style="width: 25px; height: 20px;"></div>
               Artist
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/fork.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/fork.png" style="width: 25px; height: 20px;"></div>
               Restaurant business
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/doctor22.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/doctor22.png" style="width: 25px; height: 20px;"></div>
               Medicine
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/soccerman.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/soccerman.png" style="width: 25px; height: 20px;"></div>
               Sports
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/hatt.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/hatt.png" style="width: 25px; height: 20px;"></div>
               Fashion
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/monitor.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/monitor.png" style="width: 25px; height: 20px;"></div>
               It
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/money8.png" style="width: 25px; height: 20px;">
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/money8.png" style="width: 25px; height: 20px;">
               </div>
               Finance
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/staff.png" style="width: 27px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/staff.png" style="width: 27px; height: 20px;"></div>
               Public official
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/bag.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/bag.png" style="width: 25px; height: 20px;"></div>
               Business(foundation)
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/shott.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/shott.png" style="width: 25px; height: 20px;"></div>
               Marketing
             </a>
             <a class="nav-link" href="index.html">
-              <div class="sb-nav-link-icon"><img src="../../image/giftt.png" style="width: 25px; height: 20px;"></div>
+              <div class="sb-nav-link-icon"><img src="<%=request.getContextPath()%>/image/giftt.png" style="width: 25px; height: 20px;"></div>
               Event
             </a>
 
@@ -219,7 +219,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
-  <script src="../../js/scripts.js"></script>
+  <script src="<%=request.getContextPath()%>/js/scripts.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
   <script src="assets/demo/chart-area-demo.js"></script>
   <script src="assets/demo/chart-bar-demo.js"></script>
