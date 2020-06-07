@@ -19,4 +19,5 @@ int page11 = 3;
 	<%@ include file="views/common/menubar.jsp" %>
 	
 </body>
+<h1>변매력 옆에있는 사람이 한줄 추가함</h1>
 </html>
