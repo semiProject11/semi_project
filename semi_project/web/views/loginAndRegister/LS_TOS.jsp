@@ -121,7 +121,7 @@ int page11 = 5;
                         <br><br>
                     </span>
                     <br>
-                    <form id="terms_form" class="f" action="LS_register.html">
+                    <form id="terms_form" class="f" action="LS_register.jsp">
                         <span class="input_chk">
                             <input type="checkbox" id="check_1" name="Service" class="chk">
                             <label><span></span></label><label for="Service">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time Seller 이용약관 동의<label class="terms_necessary">(필수)</label></label>
