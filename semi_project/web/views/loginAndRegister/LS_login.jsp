@@ -1,8 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%! 
-int page11 = 5;
-%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +10,7 @@ int page11 = 5;
     crossorigin="anonymous" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
     crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 </head>
 <style>
         .btn{
@@ -28,28 +26,26 @@ int page11 = 5;
         }
         .form-control{
             position: relative;
-    height: 38px;
-    margin: 0 0 14px;
-    padding: 10px 35px 10px 15px;
-    border: solid 1px #dadada;
-    background: #fff;
+		    height: 38px;
+		    margin: 0 0 14px;
+		    padding: 10px 35px 10px 15px;
+		    border: solid 1px #dadada;
+		    background: #fff;
         }
     </style>
 <body>
-
 
         <!--main-->
         <article class="container">
         
         <div class="row">
-            <div class="col">
-            </div>
+        <div class="col-3"></div>
         <div class="col-6">
               <br>
             <div class="page-header" align='center'>
-                  <div><a href="index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
+                  <div><a href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
             </div>
-            <div class>
+            
                 <form role="form" action="home.html" method="post" onsubmit="return validate();">
                 <div class="form-group"><br><br><br>
                     <label for="userId">아이디</label>
@@ -65,25 +61,41 @@ int page11 = 5;
                             <br><br>
                          <div class="form-group"><input type="submit" value="로그인" class="btn btn-primary btn-block"></div>
                         <br><br>
-                        </form>
                         </div>
                         <div class="col"></div>
-                    </div>
+                        </div>
+                </form>
+
                     <div class="find_info">
                         <a id="idinquiry" href="LS_findId1.jsp">아이디 찾기</a>
-                        <span class="bar" aria-hidden="true">|</span> <a id="pwinquiry" href="LS_findPwd.jsp">비밀번호 찾기</a>
-                        <span class="bar" aria-hidden="true">|</span> <a id="join" href="LS_TOS.jsp">회원가입</a>
+                        <span>|</span> <a id="pwdinquiry" href="LS_findPwd.jsp">비밀번호 찾기</a>
+                        <span>|</span> <a id="join" href="LS_TOS.jsp">회원가입</a>
                     </div>
                     <br><br><br><br><br><br>
                     
-                </form>
-            </div>
+                <div class="col"></div>
+          
         </div>
                       
-        <div class="col">
-        </div>
+        <div class="col-3"></div>
         </div>
         </article>
+        
+				<!--footer-->
+      <footer class="py-4 bg-light mt-auto">
+        <div class="container-fluid">
+          <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">Copyright &copy; Your Website 2019</div>
+            <div>
+              <a href="#">Privacy Policy</a>
+              &middot;
+              <a href="#">Terms &amp; Conditions</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+             
         <script>
             
             function validate(){
@@ -109,30 +121,9 @@ int page11 = 5;
             else{
                 return true;
             }
+            }
+           </script>
 
-                
-           
-            
-        }
-           
-       
-       
-    
-        </script> 
-<!--footer-->
-      <footer class="py-4 bg-light mt-auto">
-        <div class="container-fluid">
-          <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Your Website 2019</div>
-            <div>
-              <a href="#">Privacy Policy</a>
-              &middot;
-              <a href="#">Terms &amp; Conditions</a>
-            </div>
-          </div>
-        </div>
-      </footer>
-      </div>
- <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
+

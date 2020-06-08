@@ -1,8 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%! 
-int page11 = 5;
-%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +11,7 @@ int page11 = 5;
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 </head>
   <style>
         .btn{
@@ -109,7 +106,7 @@ int page11 = 5;
         <div class="col-6">
               <br>
             <div class="page-header" align='center'>
-                  <div><a href="index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
+                  <div><a href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
             </div>
             <div id="content" class="checkboxArea">
                 <div>
@@ -339,7 +336,6 @@ Time Seller 및 Time Seller 관련 제반 서비스(모바일 웹/앱 포함)의
           </div>
         </div>
       </footer>
-      </div>
       
       <script>
       $(function(){
@@ -368,7 +364,7 @@ Time Seller 및 Time Seller 관련 제반 서비스(모바일 웹/앱 포함)의
         });
     </script>
       
- <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
