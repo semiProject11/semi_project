@@ -61,7 +61,7 @@ int page11 = 5;
                   <div><a href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
             </div>
             <div class>
-                <form role="form" action="LS_login.html" method="post" onsubmit="return validate();">
+                <form role="form" action="LS_login.jsp" method="post" onsubmit="return validate();">
                 <div class="form-group"><br><br>
                     <label class="findPwd">비밀번호 찾기</label><hr>
                     <div class="form-group">
