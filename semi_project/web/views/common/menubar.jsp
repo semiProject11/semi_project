@@ -222,11 +222,7 @@
     </div>
    </div>
 <%} else if(page11 == 1){ %>
-<<<<<<< HEAD
-   <div id="layoutSidenav">
-=======
-	<div id="layoutSidenav">
->>>>>>> refs/remotes/origin/master
+<div id="layoutSidenav">
     <div id="layoutSidenav_nav">
       <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
 
