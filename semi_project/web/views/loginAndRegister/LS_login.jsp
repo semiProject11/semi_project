@@ -29,27 +29,26 @@ int page11 = 5;
         }
         .form-control{
             position: relative;
-    height: 38px;
-    margin: 0 0 14px;
-    padding: 10px 35px 10px 15px;
-    border: solid 1px #dadada;
-    background: #fff;
+		    height: 38px;
+		    margin: 0 0 14px;
+		    padding: 10px 35px 10px 15px;
+		    border: solid 1px #dadada;
+		    background: #fff;
         }
     </style>
 <body>
-
 
         <!--main-->
         <article class="container">
         
         <div class="row">
-        <div class="col"></div>
+        <div class="col-3"></div>
         <div class="col-6">
               <br>
             <div class="page-header" align='center'>
                   <div><a href="index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
             </div>
-            <div>
+            
                 <form role="form" action="home.html" method="post" onsubmit="return validate();">
                 <div class="form-group"><br><br><br>
                     <label for="userId">아이디</label>
@@ -65,27 +64,27 @@ int page11 = 5;
                             <br><br>
                          <div class="form-group"><input type="submit" value="로그인" class="btn btn-primary btn-block"></div>
                         <br><br>
-                        </form>
-           </div>
-                <div class="col"></div>
-           </div>
+                        </div>
+                        <div class="col"></div>
+                        </div>
+                </form>
+
                     <div class="find_info">
                         <a id="idinquiry" href="LS_findId1.jsp">아이디 찾기</a>
-                        <span class="bar" aria-hidden="true">|</span> <a id="pwinquiry" href="LS_findPwd.jsp">비밀번호 찾기</a>
-                        <span class="bar" aria-hidden="true">|</span> <a id="join" href="LS_TOS.jsp">회원가입</a>
+                        <span>|</span> <a id="pwdinquiry" href="LS_findPwd.jsp">비밀번호 찾기</a>
+                        <span>|</span> <a id="join" href="LS_TOS.jsp">회원가입</a>
                     </div>
                     <br><br><br><br><br><br>
                     
-                
-          </div>
+                <div class="col"></div>
+          
         </div>
                       
-        <div class="col">
+        <div class="col-3"></div>
         </div>
-        
         </article>
         
-<!--footer-->
+				<!--footer-->
       <footer class="py-4 bg-light mt-auto">
         <div class="container-fluid">
           <div class="d-flex align-items-center justify-content-between small">
@@ -130,3 +129,4 @@ int page11 = 5;
 
 </body>
 </html>
+
