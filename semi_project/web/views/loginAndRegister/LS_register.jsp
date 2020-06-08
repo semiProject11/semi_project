@@ -40,7 +40,7 @@ int page11 = 5;
               
                 <div class="page-header" align='center'>
                   <div><br>
-                  <a href="index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a>
+                  <a href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a>
                   </div>
               </div>
               <div class>

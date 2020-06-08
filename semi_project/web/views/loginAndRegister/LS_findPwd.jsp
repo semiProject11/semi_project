@@ -58,7 +58,7 @@ int page11 = 5;
         <div class="col-6">
               <br>
             <div class="page-header" align='center'>
-                  <div><a href="home.html"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
+                  <div><a href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/image/logo2.png"></a></div>
             </div>
             <div class>
                 <form role="form" action="LS_login.html" method="post" onsubmit="return validate();">
