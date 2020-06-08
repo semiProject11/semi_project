@@ -13,6 +13,7 @@ int page11 = 5;
     crossorigin="anonymous" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
     crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 </head>
 <style>
         .btn{
@@ -96,17 +97,17 @@ int page11 = 5;
                             <option value="016">016 </option>
                             <option value="017">017</option>
                             <option value="018">018</option>
-                            <option value="019">019</option>b
+                            <option value="019">019</option>
                             </select>
                             </div>-
 
                         <div class="col">
-                        <input type="phone" id="phone2" class="form-control" name="phone2" type="text" size="4" maxlength="4">
+                        <input type="text" id="phone2" class="form-control" name="phone2" type="text" size="4" maxlength="4">
                         <label id="p2result"></label>
                         </div>-
 
                         <div class="col">
-                        <input type="phone" id="phone3" class="form-control" name="phone3" type="text" size="4" maxlength="4">
+                        <input type="text" id="phone3" class="form-control" name="phone3" type="text" size="4" maxlength="4">
                         <label id="p3result"></label>
                         </div>
 
@@ -176,7 +177,7 @@ int page11 = 5;
                             </div>
 
                             <div class="col">
-                            <input type="no" class="form-control" name="bankUser" id="bankUser" placeholder="예금주 명" >
+                            <input type="text" class="form-control" name="bankUser" id="bankUser" placeholder="예금주 명" >
                             </div>
 
                         </div>
@@ -186,7 +187,7 @@ int page11 = 5;
                         <div class="row">
                             <div class="col-0"></div>
                             <div class="col-12">
-                                <input type="no" class="form-control" name="bankNo" id="bankNo" placeholder="계좌번호를 '-'없이 입력 해주세요" >
+                                <input type="text" class="form-control" name="bankNo" id="bankNo" placeholder="계좌번호를 '-'없이 입력 해주세요" >
                             </div>
                             <div class="col-0">
                             </div>
@@ -233,7 +234,7 @@ int page11 = 5;
           </div>
         </div>
       </footer>
-      
+
       <!-- onsubmit validate() 함수-->
 
         <script>
@@ -466,22 +467,13 @@ int page11 = 5;
                      }
                     });
            
-                    // 회원가입 버튼 : 위의 내용 다 채워지면 알림창으로 
-                    // $("form").submit(function(){
-                    // if(confirm("회원가입에 성공하였습니다!! \nTimeSeller의 회원이 되신 것을 축하합니다!!")==false)
-                    // {return false;}
-                    
-                    // });
-
-                    });
-
                
-
-
-                
-        </script> 
+                    });
+            
+            
+            </script> 
       
- <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-      </div>
+      
+
 </body>
 </html>
